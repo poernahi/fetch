@@ -464,3 +464,6 @@
   }
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
+
+const whatwg_fetch = 1;
+export { whatwg_fetch };
